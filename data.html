@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Demo</title>
+        <script>
+            function setdata()
+            {
+                document.getElementById("head2").innerHTML = "The paragraph";
+            }
+            function unsetdata()
+            {
+                document.getElementById("head2").innerHTML = "Heading 2";
+            }
+        </script>
+    </head>
+    <body>
+        <h2 onmouseover="setdata()" onmouseout="unsetdata()" id="head2">Heading 2</h2>
+        <br><br>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>DOM change text</title>
+        <script>
+           function select()
+           {
+               var select = document.getElementById("selectbox");
+               alert(select.options[select.selectedindex].value);
+           }
+        </script>
+    </head>
+    <body>
+      <select id="selectbox">
+          <option value="India">India</option>
+          <option value="Pakisthan">Pakisthan</option>
+          <option value="Russia">Russia</option>
+          <option value="America">America</option>
+      </select>
+      <button onclick="select()">CLick me</button>
+    </body>
+</html>
