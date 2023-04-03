@@ -53,3 +53,28 @@ Have Block scope
 Variable must be initialize before use.
 Can we redeclare anywhere in the program.
 
+
+DATA TYPE
+  Primitive (String, Boolean, Symbol, Null, Undefined)
+  Object (Array, Date, Regular Expression, Map & Weak Map, Set & Weak Set)
+  
+STRING
+It's a simple text data.
+We can specify string with single or double quotes or you can use both.
+
+BOOLEAN
+Boolean is a Value type, that have only 2 possible values; True & False
+Don't specify the boolean type in the qutation mark("").
+
+SYMBOL
+Symbol is the new data type in ES6 which represent unique tokens.
+Once you create a symbol it's unique and it will not match any other symbols.
+eg : const blue = symbol();
+     const white = symbol("color is white");
+     blue === white // false
+     
+NULL & UNDEFINED
+Null has only one possible value Null and Undefined has only one possible value Undefined.
+Both Null and Undefined represent something that doesn't exist.
+
+OBJECT
