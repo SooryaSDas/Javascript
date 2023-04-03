@@ -23,4 +23,27 @@ ES6
 ECMA script 6 is updated of ES5 which was standardized in 2009.
 ES6 was published by ECMA International in June 2015.
 
+COMMENTS
+
+Single Line Comments
+Multi Line Comments
+
+VARIABLE DECLARATION
+
+VAR
+Variable is Just a name of the Specific Value.
+Declare a function & globally scopped variable
+Optionally initializing to a value
+Can be re-declare  
+Can be reassign a value
+Variable are hoisted on top and can be used anywhere.
+Can be redeclare anywhere in the program.
+
+LET
+Block-scoped local variable, Optionally initializing to a value.
+Can't be re-declared
+Can't re-assign a value.
+Variable must be initialized before use.
+can't be redeclare inside a block.
+
 
