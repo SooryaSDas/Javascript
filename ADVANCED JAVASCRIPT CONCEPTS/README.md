@@ -46,4 +46,10 @@ Can't re-assign a value.
 Variable must be initialized before use.
 can't be redeclare inside a block.
 
+CONST
+Can't re-declared
+Can't re-assign the value.
+Have Block scope
+Variable must be initialize before use.
+Can we redeclare anywhere in the program.
 
