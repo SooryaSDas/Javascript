@@ -78,3 +78,6 @@ Null has only one possible value Null and Undefined has only one possible value 
 Both Null and Undefined represent something that doesn't exist.
 
 OBJECT
+Objects are mutable, can change any value at anytime.
+Object is just like a container that can have different kind of data.
+It contain the data in key and value pairs.
